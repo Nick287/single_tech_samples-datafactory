@@ -13,7 +13,7 @@ resources:
   repositories:
     - repository: single_tech_samples-datafactory
       type: github
-      endpoint: mdwdo-adf-github
+      endpoint: single_tech_samples-datafactory
       name: Nick287/single_tech_samples-datafactory
       ref: adf_publish
 
