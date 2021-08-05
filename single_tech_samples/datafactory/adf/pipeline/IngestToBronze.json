@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy from Source to Bronze01",
+				"name": "Copy from Source to Bronze",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
