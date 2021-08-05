@@ -11,10 +11,10 @@ resources:
         branches:
           - main
   repositories:
-    - repository: mdwdataops_adfpublish
+    - repository: single_tech_samples-datafactory
       type: github
       endpoint: mdwdo-adf-github
-      name: Nick287/mdw-dataops-clone
+      name: Nick287/single_tech_samples-datafactory
       ref: adf_publish
 
 # The deployment script sets this as a Pipeline Variable, but you may choose to set it here in the definition
