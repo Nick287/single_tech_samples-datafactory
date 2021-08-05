@@ -1,5 +1,5 @@
 {
-	"name": "ParkingSensors_Source_CSV",
+	"name": "parkingsensors_source_csv",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "SourceDataStorage",
@@ -15,7 +15,10 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "@dataset().fileName",
+				"fileName": {
+					"value": "@dataset().fileName",
+					"type": "Expression"
+				},
 				"folderPath": "data/raw_data/On-street_Parking_Bay_Sensors",
 				"fileSystem": "files"
 			},
