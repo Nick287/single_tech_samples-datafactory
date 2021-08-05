@@ -65,11 +65,26 @@
 						}
 					}
 				]
+			},
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "botest",
+					"value": "test"
+				}
 			}
 		],
 		"parameters": {
 			"fileName": {
 				"type": "string"
+			}
+		},
+		"variables": {
+			"botest": {
+				"type": "String"
 			}
 		},
 		"folder": {
